@@ -46,6 +46,15 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
   gap: 20px;
 }
 
@@ -66,4 +75,10 @@
   border-radius: 6px;
   border-bottom: 1px solid #ccc;
   padding: 6px;
+}
+
+input[type="text"] {
+  width: 100%;
+  display: block;
+  height: 12px;
 }
